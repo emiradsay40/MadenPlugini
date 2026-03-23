@@ -1,0 +1,11 @@
+block-types:
+  obsidian:
+    source: OBSIDIAN
+    reward:
+      material: OBSIDIAN
+      amount: 1
+      name: "&5Maden Tasi"
+      lore:
+        - "&7Madenden elde edildi."
+
+tracked-blocks: {}

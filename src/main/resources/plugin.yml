@@ -1,0 +1,14 @@
+name: MadenPlugin
+version: 2.3.0
+main: maden.tr.skyblock.maden.MadenPlugin
+author: Codex
+api-version: '1.13'
+softdepend: [PlaceholderAPI, WorldGuard]
+commands:
+  maden:
+    description: Maden bolgesini yonetir
+    usage: /maden
+    permission: maden.admin
+permissions:
+  maden.admin:
+    default: op

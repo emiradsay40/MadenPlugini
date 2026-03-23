@@ -1,0 +1,29 @@
+messages:
+  mine-ready: "&aHazir"
+
+mines:
+  default:
+    world: world
+    pos1:
+      world: world
+      x: 0
+      y: 64
+      z: 0
+    pos2:
+      world: world
+      x: 0
+      y: 64
+      z: 0
+    respawn-seconds: 60
+    messages:
+      enabled: false
+      break: "&aMadenden &f%item% &aelde ettin."
+    sound:
+      enabled: false
+      name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+      volume: 1.0
+      pitch: 1.0
+    commands:
+      enabled: false
+      list:
+        - "say %player_name% maden odulu kazandi"
